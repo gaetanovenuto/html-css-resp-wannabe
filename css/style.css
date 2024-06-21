@@ -125,5 +125,77 @@ img {
 }
 
 /************************************************
+    BONUS
+ ************************************************/
+
+@media screen and (min-width: 769px) and (max-width: 1160px) {
+    .container, .steps, .site-header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .lessons .container {
+        padding-bottom: 40px;
+    }
+
+    .why-us .container {
+        padding-top: 40px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* 
+    TABLET 768px
+*/
+
+@media screen and (max-width: 768px) {
+    .container, .steps, .site-header {
+        width: 768px;
+        margin: 0 auto;
+    }
+    
+    .lessons .container {
+        padding-bottom: 40px;
+    }
+
+    .why-us .container {
+        padding-top: 40px;
+    }
+}
+/* 
+    MOBILE 480px
+*/
+
+@media screen and (max-width: 480px) {
+    .container, .steps, .site-header, .why-us{
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .container .col {
+        width: 90%;
+    }
+
+    .container .row {
+        flex-wrap: wrap;
+    }
+
+    .container .card {
+        padding-bottom: 30px;
+    }
+
+    .why-us img {
+        padding-bottom: 30px;
+    }
+
+    .why-us {
+        background-color: #222222;
+    }
+}
