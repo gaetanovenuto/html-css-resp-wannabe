@@ -154,7 +154,6 @@ img {
 @media screen and (max-width: 768px) {
     .container, .steps, .site-header {
         width: 100%;
-
     }
     
     .lessons .container {
@@ -172,7 +171,6 @@ img {
 @media screen and (max-width: 480px) {
     .container, .steps, .site-header, .why-us{
        width: 100%;
-    
     }
 
     .container .col {
@@ -189,5 +187,9 @@ img {
 
     .why-us {
         background-color: #222222;
+    }
+
+    .why-us, .steps {
+        margin: 0;
     }
 }
