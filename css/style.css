@@ -153,7 +153,7 @@ img {
 
 @media screen and (max-width: 768px) {
     .container, .steps, .site-header {
-        width: 768px;
+        width: 100%;
 
     }
     
@@ -171,7 +171,7 @@ img {
 
 @media screen and (max-width: 480px) {
     .container, .steps, .site-header, .why-us{
-        width: 480px;
+       width: 100%;
     
     }
 
